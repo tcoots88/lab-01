@@ -13,11 +13,11 @@ body {
   text-align:center;
 } */
 
-div {
+/* div {
   background: ghostwhite;
   border: 1px solid #ccc;
   /* box-shadow: 10px 10px 5px grey; */
-}
+
 
 #alpha {
   background: aqua;
