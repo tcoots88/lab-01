@@ -1,0 +1,56 @@
+body {
+  background: black;
+}
+
+/* header {
+  background: rebeccapurple;
+  color: ghostwhite;
+} */
+
+/* footer {
+  background: #111;
+  color: #eee;
+  text-align:center;
+} */
+
+div {
+  background: ghostwhite;
+  border: 1px solid #ccc;
+  /* box-shadow: 10px 10px 5px grey; */
+}
+
+#alpha {
+  background: aqua;
+}
+
+#bravo {
+  background: blue;
+}
+
+#charlie {
+  background: crimson;
+}
+
+#delta {
+  background: dodgerblue;
+}
+
+#echo {
+  background: khaki;
+}
+
+#foxtrot {
+  background: firebrick;
+}
+
+#golf {
+  background: gray;
+}
+
+#hotel {
+  background: hotpink;
+}
+
+#india {
+  background: indigo;
+}

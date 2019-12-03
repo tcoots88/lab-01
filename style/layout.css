@@ -1,0 +1,146 @@
+
+
+section {
+  overflow:auto;
+  margin: auto;
+  justify-content: center;
+}
+
+div {
+  margin: auto;
+}
+
+#alpha {
+  height: 75px;
+  width: 480px;
+}
+
+#bravo {
+  height: 150px;
+  width: 480px;
+}
+
+#charlie {
+  height: 125px;
+  width: 480px;
+}
+
+#delta {
+  height: 125px;
+  width: 480px;
+}
+
+#echo {
+  height: 250px;
+  width: 240px;
+  float: left;
+  /* display: block; */
+  display: inline-block;
+  /* justify-content: center; */
+}
+
+#foxtrot {
+  height: 250px;
+  width: 240px;
+  display: inline-block;
+  float: right;
+  /* justify-content: center; */
+  /* float: left; */
+}
+
+#golf {
+  height: 250px;
+  width: 240px;
+  display: inline-block;
+  float: left;
+  /* float: left; */
+}
+
+#hotel {
+  height: 250px;
+  width: 240px;
+  display: inline-block;
+  float: right;
+  /* float: left; */
+}
+
+#india {
+  height: 80px;
+  width: 480;
+  clear: both;
+}
+
+#boxFour {
+  width: 480px;
+  height: 500px;
+}
+#boxFour div {
+  display: inline-block;
+  height: 250px;
+  line-height: 250px;
+  width: 50%;
+  margin: 0;
+
+}
+/* On Desktop, float the divs in the section and center them */
+@media( min-width: 960px ) {
+
+  div {
+    /* float:left; */
+    margin: auto;
+  }
+  #alpha {
+    height: 100px;
+    width: 960px;
+  }
+  
+  #bravo {
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+  
+  #charlie {
+    height: 380px;
+    width: 200px;
+    float: left;
+
+  }
+  
+  #delta {
+    height: 380px;
+    width: 200px;
+    float: left;
+
+  }
+  
+  #echo {
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+  
+  #foxtrot {
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+  
+  #golf {
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+  
+  #hotel {
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+  
+  #india {
+    height: 150px;
+    width: 760px;
+    clear: both;
+  }
+}
